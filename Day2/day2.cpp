@@ -48,7 +48,7 @@ int main()
 			cout << "INDEX: " << i; 
 			cout <<"VALUE: " << myVec[i];
 			// CHECK IF IT'S ADDITION ELSE IT'S MULTIPLICATION
-			if(myVec[i]==1)
+		if(myVec[i]==1)
 			{
 				cout << " -ADDITION" << myVec[myVec[i+3]] << myVec[myVec[i+1]] << "+" << myVec[myVec[i+2]] << endl;	
 				myVec[myVec[i+3]]=myVec[myVec[i+1]] + myVec[myVec[i+2]];
